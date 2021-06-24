@@ -1,7 +1,12 @@
-
+import React, { useState } from 'react';
 import './App.css';
-import Header from './components/Header'
-import Footer from './components/Footer'
+import Header from './components/Header';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
+
 // import Header from './components/Header'
 
 function App() {
@@ -26,9 +31,15 @@ function App() {
   return (
     <div className="App">
       <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
-      <main>
+      <div>
+        <main>
+            {renderTab()}
+        </main>
+      </div>
+
+      <div>
         <Footer></Footer>
-      </main>
+      </div>
     </div>
   );
 }
