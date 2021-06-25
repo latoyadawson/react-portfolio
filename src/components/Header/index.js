@@ -4,8 +4,8 @@ import Navigation from '../Navigation';
 function Header(props) {
     const {currentTab, setCurrentTab} = props;
     return(
-        <header className="flex-row px-1">
-            <h1 className="flex-start">
+        <header className="align-items-center  px-1">
+            <h1 className="d-flex justify-content-start mx-5 my-5">
                 <a data-testid="name" href="/"> Latoya's Portfolio</a>
             </h1>
             <Navigation

@@ -5,7 +5,7 @@ function Portfolio() {
     const projects = [
         {
             name:'Music My Meal',
-            description: '',
+            description: 'This is a web application that generates a recipie, nutirion facts along with a song to cook to! It takes the guess work out of deciding what to cook and makes it fun!',
             image:'meal-picker.png',
             technologies: [],
             github: 'https://github.com/albertjly/meal-music-picker',
@@ -55,30 +55,38 @@ function Portfolio() {
 
     return (
         <section id="portfolio" className="Portfolio">
-            <div className="header-section">
+            <div className="header-section d-flex justify-content-start mx-5">
                 <h1 className="section-title">Portfolio</h1>
             </div>
-            <div className="body">
-                <div class="row">
-                    <div class="column"></div>
+            <div className="body d-flex mx-5 my-5">
+                <div className="d-flex row py-5">
+                    <div className="column px-5">
+                        <Project projects={projects[0]}></Project>
+                    </div>
                         
-                    <div class="column"></div>
+                    <div className="column px-5">
+                        <Project projects={projects[1]}></Project>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="column"></div>
+                <div className="row py-5">
+                    <div className="column px-5">
+                        <Project projects={projects[2]}></Project>
+                    </div>
                         
-                    <div class="column"></div>
+                    <div className="column px-5">
+                        <Project projects={projects[3]}></Project>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="column"></div>
+                <div className="row py-5">
+                    <div className="column px-5">
+                        <Project projects={projects[4]}></Project>
+                    </div>
                         
-                    <div class="column"></div>
+                    <div className="column px-5">
+                        <Project projects={projects[5]}></Project>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="column"></div>
-                        
-                    <div class="column"></div>
-                </div>
+            
             </div>
         </section>
     )
