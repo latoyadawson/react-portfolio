@@ -12,6 +12,7 @@ A website that displays and showcaes my engineering development projects using r
 * Hooks
 
 ## Screenshots
+![picture of about me](assets/images/finaScreen.png)
 
 ## User Stories
 AS AN employer looking for candidates with experience building single-page applications
