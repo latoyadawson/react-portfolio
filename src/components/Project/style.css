@@ -1,0 +1,29 @@
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  height: 700px;
+  margin: 1rem;
+  position: relative;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: left;
+}
+
+a.deploy-link{
+  font-size: 20px;
+} 
+
+a.github-link {
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+
+div.card-title {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#section-title {
+  font-family: 'Courier New', Courier, monospace;
+}

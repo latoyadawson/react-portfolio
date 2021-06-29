@@ -1,13 +1,16 @@
 import React from 'react';
 import Navigation from '../Navigation';
+import './style.css';
+
 
 function Header(props) {
     const {currentTab, setCurrentTab} = props;
     return(
-        <header className="align-items-center  px-1">
-            <h1 className="d-flex justify-content-start mx-5 my-5">
-                <a data-testid="name" href="/"> Latoya's Portfolio</a>
-            </h1>
+        <header className="px-1 header">
+            <div className="pageTitle">
+
+                    <a data-testid="name" href="/" className="title" > Latoya's Portfolio</a>
+            </div>
             <Navigation
                 currentTab={currentTab}
                 setCurrentTab={setCurrentTab}

@@ -1,0 +1,47 @@
+
+header {
+   background-color: #519872;
+   flex: wrap;
+
+}
+
+a {
+    list-style: armenian;
+    font-size: 100px;
+    text-decoration: none;
+
+    
+}
+
+a.title {
+  flex: wrap;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-self: center ;
+  /* text-align: center; */
+}
+
+
+/* unvisited link */
+a:link {
+    color: #34252F;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #34252F;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+    text-decoration: none;
+  }

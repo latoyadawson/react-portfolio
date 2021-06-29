@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../Project'
+import './style.css';
 
 function Portfolio() {
     const projects = [
@@ -58,31 +59,31 @@ function Portfolio() {
             <div className="header-section d-flex justify-content-start mx-5">
                 <h1 className="section-title">Portfolio</h1>
             </div>
-            <div className="body d-flex mx-5 my-5">
-                <div className="d-flex row py-5">
-                    <div className="column px-5">
+            <div className="container ">
+                <div className="row">
+                    <div className="col-6 ">
                         <Project projects={projects[0]}></Project>
                     </div>
                         
-                    <div className="column px-5">
+                    <div className="col-6">
                         <Project projects={projects[1]}></Project>
                     </div>
                 </div>
-                <div className="row py-5">
-                    <div className="column px-5">
+                <div className="row">
+                    <div className="col-6 ">
                         <Project projects={projects[2]}></Project>
                     </div>
                         
-                    <div className="column px-5">
+                    <div className="col-6 ">
                         <Project projects={projects[3]}></Project>
                     </div>
                 </div>
-                <div className="row py-5">
-                    <div className="column px-5">
+                <div className="row">
+                    <div className="col-6 ">
                         <Project projects={projects[4]}></Project>
                     </div>
                         
-                    <div className="column px-5">
+                    <div className="col-6">
                         <Project projects={projects[5]}></Project>
                     </div>
                 </div>

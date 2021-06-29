@@ -36,7 +36,7 @@ function ContactForm() {
    return(
         <section>
             <div className="d-flex justify-content-start mx-5">
-            <h1 data-testid="h1tag">Contact Me</h1>
+            <h1 data-testid="h1tag" className="section-title">Contact Me</h1>
             </div >
             <div className="d-flex justify-content-start mx-5">
             <form id="contact-form" onSubmit={handleSubmit}>

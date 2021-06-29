@@ -33,7 +33,7 @@ function App() {
     <div className="App">
       <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
       <div>
-        <main>
+        <main className="content">
             {renderTab()}
         </main>
       </div>

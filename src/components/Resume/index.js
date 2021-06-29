@@ -1,19 +1,20 @@
 import React from 'react';
+import './style.css';
 
 function Resume() {
     return (
         <section>
         <div className="d-flex justify-content-start mx-5">
-            <h1 className="page-header">My Resume</h1>
+            <h1 className="section-title">Resume</h1>
         </div>
         <div className="d-flex justify-content-start mx-5">
             <a href={require("../../assets/files/latoyaResume.pdf")} download>
                 <h4>Download Resume</h4>
             </a>
         </div>
-        <div className="d-flex flex-column justify-content-start mx-5">
+        <div className="mx-5">
             <h5>Front-End Proficiencies</h5>
-            <ul className="unstyle">
+            <ol>
                 <li>HTML5</li>
                 <li>CSS3</li>
                 <li>JavaScript</li>
@@ -22,8 +23,9 @@ function Resume() {
                 <li>React</li>
                 <li>version control/Git</li> 
                
-            </ul>
+            </ol>
             <br></br>
+
             <h5>Back-End Proficiencies</h5>
             <ol>
                 <li>APIs</li>
@@ -34,6 +36,7 @@ function Resume() {
 
             </ol>
             <br></br>
+
             <h5>Dev Tool Proficiencies</h5>
             <ol>
                 <li>Git</li>
@@ -41,6 +44,7 @@ function Resume() {
                 <li>Jest</li>
             </ol>
             <br></br>
+
             <h5>Database Proficiencies</h5>
             <ol>
                 <li>MySQL</li>

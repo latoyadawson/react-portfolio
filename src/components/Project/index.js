@@ -1,5 +1,6 @@
 import React, { useState } from 'react'; 
 import Card from 'react-bootstrap/Card';
+import './style.css';
 
 function Project(props) {
     
@@ -34,23 +35,23 @@ function Project(props) {
 
 
     return(
-        <Card style={{ width: "18rem" }}>
+        <Card style={{ width: "30rem" }}>
 			<Card.Img
 				variant="top"
 				src={require(`../../assets/images/${image}`).default} 
 				className="card-image"
 			/>
-			<div className="center">
+			<div className="maindiv">
 				<Card.Body>
 					<Card.Title className="card-title">{name}</Card.Title>
 					<Card.Text className="card-text">{description}</Card.Text>
 					<Card.Subtitle className="card-subtitle">Technologies Used</Card.Subtitle>
 					<Card.Text className="card-techs">{getTech(techUsed)}</Card.Text>
-					<Card.Link href={deployLink} target="_blank" className="card-link">
+					<Card.Link href={deployLink} target="_blank" className="deploy-link">
 						{name} App
 					</Card.Link>
 					<br></br>
-					<Card.Link href={githubLink} target="_blank" className="card-link">
+					<Card.Link href={githubLink} target="_blank" className="github-link">
 						{name} Github
 					</Card.Link>
 				</Card.Body>

@@ -1,0 +1,9 @@
+h1.section-title {
+    font-family: 'Courier New', Courier, monospace; 
+    padding: 20px;
+    text-decoration: underline;
+}
+
+#col-6 {
+    padding: 10px;
+}

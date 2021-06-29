@@ -1,6 +1,14 @@
-.App {
+* {
+  margin: auto;
+}
+div.App {
+  height: 100%;
+  width: 100%;
+}
+#title {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;

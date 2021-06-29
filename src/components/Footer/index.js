@@ -1,4 +1,6 @@
 import React from 'react';
+import './style.css';
+
 
 
 function Footer() {
@@ -7,10 +9,10 @@ function Footer() {
 
     return(
        <footer className="footer">
-           <div>
+           <div className="iconsBox d-flex">
                 {/* github icon */}
                 <a 
-                    className="github"
+                    className="github icon"
                     href="https://github.com/latoyadawson" 
                     target="_blank"
                     rel="noreferrer"
@@ -23,10 +25,11 @@ function Footer() {
                 </a>
                 {/* linked icon */}
                 <a
-                    className="linkedin"
+                    className="linkedin icon"
                     href="https://www.linkedin.com/in/latoyadawson/"
                     target="_blank"
                     rel="noreferrer"
+                    
                 >
                     <img
                         src={require("../../assets/images/linkedinIcon.png").default}
@@ -37,7 +40,7 @@ function Footer() {
                 </a>
                 {/* twitter icon */}
                 <a
-                    className="twitter"
+                    className="twitter icon"
                     href="https://twitter.com/Latoya4Dawson"
                     target="_blank"
                     rel="noreferrer"
