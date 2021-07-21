@@ -8,9 +8,17 @@ function Portfolio() {
             name:'Music My Meal',
             description: 'This is a web application that generates a recipie, nutirion facts along with a song to cook to! It takes the guess work out of deciding what to cook and makes it fun!',
             image:'meal-picker.png',
-            technologies: [],
+            technologies: ['JavaScript'],
             github: 'https://github.com/albertjly/meal-music-picker',
             deployed:'https://albertjly.github.io/meal-music-picker/' ,
+        },
+        {
+            name:'StreamSearch',
+            description: 'A website that searches for which tv or movie is on which streaming platform (since there are so many). You can sign up and login and save it to your profile. You can click the show and it will link you to streaming service website and you can immediately start watching! This will make it easier to have all your favorite shows and movies in one place instead of logging into all your accounts indivi for the show you want to watch.',
+            image:'stream-search.ping',
+            technologies: ['MERN'],
+            github: 'https://github.com/RayTakemura/StreamSearch',
+            deployed:'https://awesome-stream-search.herokuapp.com/' ,
         },
         {
             name:'Vault',
