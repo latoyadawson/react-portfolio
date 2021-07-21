@@ -13,9 +13,9 @@ function Portfolio() {
             deployed:'https://albertjly.github.io/meal-music-picker/' ,
         },
         {
-            name:'StreamSearch',
+            name:'Stream Search',
             description: 'A website that searches for which tv or movie is on which streaming platform (since there are so many). You can sign up and login and save it to your profile. You can click the show and it will link you to streaming service website and you can immediately start watching! This will make it easier to have all your favorite shows and movies in one place instead of logging into all your accounts indivi for the show you want to watch.',
-            image:'stream-search.ping',
+            image:'stream-search.png',
             technologies: ['MERN'],
             github: 'https://github.com/RayTakemura/StreamSearch',
             deployed:'https://awesome-stream-search.herokuapp.com/' ,
@@ -94,6 +94,13 @@ function Portfolio() {
                     <div className="col-6">
                         <Project projects={projects[5]}></Project>
                     </div>
+                </div>
+                <div className="row">
+                    <div className="col-6 ">
+                        <Project projects={projects[6]}></Project>
+                    </div>
+                        
+                    
                 </div>
             
             </div>
